@@ -29,7 +29,7 @@ export default function Profile() {
       {Object.keys(dataOfUser).length > 0 ? (
         <div>
           <section className="profile">
-            <Link className="back-btn" to={"/"}>
+            <Link className="back-btn" to={"/workers-list"}>
               {" "}
               <img src={back} alt="back" />
             </Link>
